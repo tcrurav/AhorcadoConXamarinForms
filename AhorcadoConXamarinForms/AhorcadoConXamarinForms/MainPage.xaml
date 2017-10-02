@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AhorcadoConXamarinForms"
+             x:Class="AhorcadoConXamarinForms.MainPage">
+
+    <StackLayout
+        Orientation="Vertical">
+
+        <Image
+            x:Name="imageAhorcado">
+        </Image>
+        <Label
+            x:Name="labelPalabraSecreta"
+            HorizontalOptions="Center"
+            FontSize="Large">
+        </Label>
+        <Grid
+            x:Name="gridBotonera">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+        </Grid>
+        
+    </StackLayout>
+
+</ContentPage>
